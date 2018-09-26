@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Image Swapping</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+  <img id="right" src="1.jpg" />
+  <div id="left">
+    <ul id="list">
+      <script>
+        for (i = 0; i < aryImages.length; i++) {
+          document.write('<li><img src="' + aryImages[i] + '" onclick="onClick(this);" /></li>');
+        }
+      </script> 
+    </ul>
+  </div>
+
+</body>
+
+</html>
